@@ -1,13 +1,92 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+  width: 511px;
+  height: 517px;
+  background: #ffffff;
+  /* margin: 0 auto; */
+  padding: 69px 75px;
+}
+.tenz-background {
+  width: 360px;
+  height: 379px;
+  background: #0b2434;
+  padding: 30px 20px;
+}
+.container {
+  width: 320px;
+  height: 320px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 34px;
+}
+.container > h1 {
+  font-weight: 700;
+  font-size: 25.6px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #2b283a;
+}
+.container > p {
+  width: 232px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  color: #4a4e74;
+}
+.box-buttons {
+  padding-top: 23px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.dice {
+  height: 36px;
+  width: 36px;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2b283a;   
+  cursor: pointer; 
+  border: none;      
+}
+.locked{
+  background: rgb(91, 218, 91);
+}
+.roll-btn {
+  width: 92px;
+  height: 36px;
+  background: #5035ff;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: fit-content;
+  padding: 12px 21px;
+  margin: 0 auto;
+  margin-top: 31px;
+  cursor: pointer; 
+  border: none;  
 }
