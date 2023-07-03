@@ -104,7 +104,7 @@ const onClickNewGame = () => {
               })}
             </div>
             <button className="roll-btn" onClick={isWin ? onClickNewGame : onClickRollDices}>
-             {isWin ? "New Game" : "Roll"}
+             {isWin ? "NEW GAME" : "ROLL"}
             </button>
           </div>
         </div>
